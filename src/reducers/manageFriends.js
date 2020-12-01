@@ -1,3 +1,4 @@
-export function manageFriends(state, action){
-  
+export function manageFriends(state ={friends: []}, action){
+   case:
+            return {...state,     [action.payload.id]: action.payload};
 }
